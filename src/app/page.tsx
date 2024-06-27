@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect } from 'react';
 import io from 'socket.io-client';
-// '0b0c13471299dde746d9be8617ba901fb2ba71078ec71a7cc4080d54'
+// 'sid=0b0c13471299dde746d9be8617ba901fb2ba71078ec71a7cc4080d54'
 const SocketComponent = () => {
   useEffect(() => {
     const url = 'https://app-test.icenna.com';
